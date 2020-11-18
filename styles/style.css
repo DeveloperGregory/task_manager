@@ -1,0 +1,71 @@
+:root{
+    --task-grey:rgb(201, 201, 201); 
+}
+
+body{
+    background-color: rgb(12, 98, 179);
+}
+
+.pretty-button{
+    border-radius: 8px;
+    color: white;
+    height: 35px;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.pretty-button:hover{
+    opacity: 0.75;
+}
+
+#add-btn{
+    background-color: rgb(12, 98, 179);
+}
+
+#button-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#clear-btn{
+    background-color: rgb(187, 0, 0);
+}
+
+#save-btn{
+    background-color: rgb(26, 151, 10);
+}
+
+#task-display{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 400px;
+}
+
+#task-display h1{
+    margin: 2px;
+    text-align: center;
+}
+
+#task-display input{
+    font-size: x-large;
+}
+
+#task-display form, button{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#task-list{
+    background-color: var(--task-grey);
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    width: 350px;
+}
